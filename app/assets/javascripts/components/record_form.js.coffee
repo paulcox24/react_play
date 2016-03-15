@@ -45,7 +45,7 @@
         React.DOM.input
           type: 'number'
           className: 'form-control'
-          placeholder: 'Amount'
+          placeholder: '$'
           name: 'amount'
           value: @state.amount
           onChange: @handleChange

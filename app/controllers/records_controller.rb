@@ -1,7 +1,7 @@
 class RecordsController < ApplicationController
   
   def index
-    @records = Record.all
+    @records = Record.all.order(date: :desc)
   end
 
   def create
